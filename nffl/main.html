@@ -5,7 +5,794 @@
 <title>NFFL Injury Report</title>
 <link href="min_table.css" rel="stylesheet" type="text/css"/>
 </head>
-<body><div><h2>Updated: 2023-10-25 17:17:04 CDT</h2></div><div><h1>Danimals</h1><table border="1" class="dataframe">
+<body><div><h2>Updated: 2023-10-26 07:34:36 CDT</h2></div><div><h1>Waboritas</h1><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>name</th>
+<th>pos</th>
+<th>date</th>
+<th>status</th>
+<th>comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Ryan Tannehill</td>
+<td>QB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Tannehill (ankle) won't practice Wednesday, Jim Wyatt of the Titans' official site reports.</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Chris Godwin</td>
+<td>WR</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Godwin (neck) is listed as questionable for Thursday's game at Buffalo, Greg Auman of Fox Sports reports.</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Graham Gano</td>
+<td>PK</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>None</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Ernest Jones</td>
+<td>LB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Jones (knee) was a limited participant at practice Wednesday, Adam Caplan of SiriusXM NFL Radio reports.</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Jalen Thompson</td>
+<td>S</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Thompson (hamstring) was limited in Arizona's practice Wednesday, Darren Urban of the team's official site reports.</td>
+</tr>
+<tr>
+<th>5</th>
+<td>Juwan Johnson</td>
+<td>TE</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Johnson (calf) was a limited practice participant Wednesday, John Hendrix of SI.com reports.</td>
+</tr>
+<tr>
+<th>6</th>
+<td>James Conner</td>
+<td>RB</td>
+<td>Oct 10</td>
+<td>Injured Reserve</td>
+<td>The Cardinals placed Conner (knee) on injured reserve Tuesday, Tom Pelissero of NFL Network reports.</td>
+</tr>
+<tr>
+<th>7</th>
+<td>J.K. Dobbins</td>
+<td>RB</td>
+<td>Sep 12</td>
+<td>Injured Reserve</td>
+<td>The Ravens officially placed Dobbins (Achilles) on injured reserve Tuesday, Clifton Brown of the team's official site reports.</td>
+</tr>
+<tr>
+<th>8</th>
+<td>Mike Williams</td>
+<td>WR</td>
+<td>Sep 26</td>
+<td>Injured Reserve</td>
+<td>The Chargers placed Williams (knee) on injured reserve Tuesday.</td>
+</tr>
+<tr>
+<th>9</th>
+<td>Keaton Mitchell</td>
+<td>RB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Mitchell (hamstring) didn't practice Wednesday, Jamison Hensley of ESPN.com reports.</td>
+</tr>
+<tr>
+<th>10</th>
+<td>Cole Turner</td>
+<td>TE</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>None</td>
+</tr>
+<tr>
+<th>11</th>
+<td>Roschon Johnson</td>
+<td>RB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Johnson (concussion) was a full practice participant Wednesday.</td>
+</tr>
+</tbody>
+</table><h2 align="center">Player Errors</h2><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>nffl_id</th>
+<th>Name</th>
+<th>POS</th>
+<th>dob</th>
+<th>merge_name</th>
+<th>merge_first_name</th>
+<th>merge_last_name</th>
+<th>issue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>8730</td>
+<td>Lamar Jackson</td>
+<td>QB</td>
+<td>1997-01-17</td>
+<td>lamarjackson</td>
+<td>lamar</td>
+<td>jackson</td>
+<td>{'error': 'dob', 'correction': '1997-01-07'}</td>
+</tr>
+<tr>
+<th>1</th>
+<td>5277</td>
+<td>Geno Smith</td>
+<td>QB</td>
+<td>1990-10-12</td>
+<td>genosmith</td>
+<td>geno</td>
+<td>smith</td>
+<td>{'error': 'dob', 'correction': '1990-10-10'}</td>
+</tr>
+<tr>
+<th>2</th>
+<td>7206</td>
+<td>Michael Thomas</td>
+<td>WR</td>
+<td>1994-08-16</td>
+<td>michaelthomas</td>
+<td>michael</td>
+<td>thomas</td>
+<td>{'error': 'dob', 'correction': '1993-03-03'}</td>
+</tr>
+<tr>
+<th>3</th>
+<td>9466</td>
+<td>Terry McLaurin</td>
+<td>WR</td>
+<td>1996-04-15</td>
+<td>terrymclaurin</td>
+<td>terry</td>
+<td>mclaurin</td>
+<td>{'error': 'dob', 'correction': '1995-09-15'}</td>
+</tr>
+<tr>
+<th>4</th>
+<td>8743</td>
+<td>Dallas Goedert</td>
+<td>TE</td>
+<td>1995-07-03</td>
+<td>dallasgoedert</td>
+<td>dallas</td>
+<td>goedert</td>
+<td>{'error': 'dob', 'correction': '1995-01-03'}</td>
+</tr>
+<tr>
+<th>5</th>
+<td>10601</td>
+<td>Ernest Jones</td>
+<td>LB</td>
+<td>1999-11-21</td>
+<td>ernestjones</td>
+<td>ernest</td>
+<td>jones</td>
+<td>{'error': 'dob', 'correction': '1999-11-22'}</td>
+</tr>
+<tr>
+<th>6</th>
+<td>9607</td>
+<td>Kaden Elliss</td>
+<td>LB</td>
+<td>1995-06-10</td>
+<td>kadenelliss</td>
+<td>kaden</td>
+<td>elliss</td>
+<td>{'error': 'dob', 'correction': '1995-07-10'}</td>
+</tr>
+<tr>
+<th>7</th>
+<td>9978</td>
+<td>Kamren Curl</td>
+<td>DB</td>
+<td>1900-01-01</td>
+<td>kamrencurl</td>
+<td>kamren</td>
+<td>curl</td>
+<td>{'error': 'dob', 'correction': '1999-03-03'}</td>
+</tr>
+<tr>
+<th>8</th>
+<td>11164</td>
+<td>Alontae Taylor</td>
+<td>DB</td>
+<td>1900-01-01</td>
+<td>alontaetaylor</td>
+<td>alontae</td>
+<td>taylor</td>
+<td>{'error': 'dob', 'correction': '1998-12-03'}</td>
+</tr>
+</tbody>
+</table></div><div><h1>Augies Army</h1><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>name</th>
+<th>pos</th>
+<th>date</th>
+<th>status</th>
+<th>comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Brock Purdy</td>
+<td>QB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Purdy (concussion) officially didn't take part in Wednesday's walkthrough, Nick Wagoner of ESPN.com reports.</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Deshaun Watson</td>
+<td>QB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Watson, who won't start Sunday's contest against the Seahawks, is slated focus on rehabbing his shoulder injury throughout the week and then rest on game day, Kelsey Russo of the Browns' official site reports.</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Raheem Mostert</td>
+<td>RB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Mostert missed Wednesday's practice with an ankle injury, Hal Habib of The Palm Beach Post reports.</td>
+</tr>
+<tr>
+<th>3</th>
+<td>David Montgomery</td>
+<td>RB</td>
+<td>Oct 24</td>
+<td>Questionable</td>
+<td>None</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Kareem Hunt</td>
+<td>RB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Hunt (thigh) isn't in line to practice Wednesday, Jake Trotter of ESPN.com reports.</td>
+</tr>
+<tr>
+<th>5</th>
+<td>Aaron Jones</td>
+<td>RB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Packers head coach Matt LaFleur said Jones (hamstring) didn't participate in Wednesday's practice, Ryan Wood of USA Today reports. "He's just a little bit sore, and that's to be expected," LaFleur added. "Hopefully, we can ramp him up and get more snaps out there."</td>
+</tr>
+<tr>
+<th>6</th>
+<td>Tyreek Hill</td>
+<td>WR</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Hill was held out of Wednesday's practice with a hip injury, Hal Habib of The Palm Beach Post reports.</td>
+</tr>
+<tr>
+<th>7</th>
+<td>T.J. Hockenson</td>
+<td>TE</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>None</td>
+</tr>
+<tr>
+<th>8</th>
+<td>Devonte Wyatt</td>
+<td>DT</td>
+<td>Oct 22</td>
+<td>Questionable</td>
+<td>Wyatt (knee) has been ruled out for the remainder of Sunday's matchup with Denver.</td>
+</tr>
+<tr>
+<th>9</th>
+<td>Demario Davis</td>
+<td>LB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Davis (knee) was a limited participant at practice Wednesday.</td>
+</tr>
+<tr>
+<th>10</th>
+<td>Vonn Bell</td>
+<td>S</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Bell (quadriceps) did not participate at practice Wednesday, Darin Gantt of the Panthers' official site reports.</td>
+</tr>
+<tr>
+<th>11</th>
+<td>Anthony Richardson</td>
+<td>QB</td>
+<td>Oct 24</td>
+<td>Injured Reserve</td>
+<td>Richardson underwent successful surgery Tuesday to address a Grade 3 AC joint sprain in his right shoulder, Colts owner Jim Irsay announced via his personal Twitter account.</td>
+</tr>
+<tr>
+<th>12</th>
+<td>David Ojabo</td>
+<td>LB</td>
+<td>Oct 2</td>
+<td>Injured Reserve</td>
+<td>Ravens head coach John Harbaugh said Ojabo (ankle/knee) may not return from injured reserve this season, Brian Wacker of The Baltimore Sun reports.</td>
+</tr>
+<tr>
+<th>13</th>
+<td>JT Woods</td>
+<td>S</td>
+<td>Oct 1</td>
+<td>Out</td>
+<td>Woods (illness) is said to be dealing with a medical condition, Daniel Popper of The Athletic reports.</td>
+</tr>
+<tr>
+<th>14</th>
+<td>Josh Whyle</td>
+<td>TE</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Whyle (concussion) was a non-participant at Wednesday's practice,  Jim Wyatt of the Titans' official site reports.</td>
+</tr>
+<tr>
+<th>15</th>
+<td>Hendon Hooker</td>
+<td>QB</td>
+<td>Aug 30</td>
+<td>Out</td>
+<td>The Lions placed Hooker (knee) on the reserve/non-football injury list Tuesday.</td>
+</tr>
+</tbody>
+</table><h2 align="center">Player Errors</h2><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>nffl_id</th>
+<th>Name</th>
+<th>POS</th>
+<th>dob</th>
+<th>merge_name</th>
+<th>merge_first_name</th>
+<th>merge_last_name</th>
+<th>issue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>10792</td>
+<td>Eli Mitchell</td>
+<td>RB</td>
+<td>1998-05-02</td>
+<td>elimitchell</td>
+<td>eli</td>
+<td>mitchell</td>
+<td>{'error': 'name', 'correction': 'elijahmitchell'}</td>
+</tr>
+<tr>
+<th>1</th>
+<td>9521</td>
+<td>Matt Gay</td>
+<td>PK</td>
+<td>1994-01-01</td>
+<td>mattgay</td>
+<td>matt</td>
+<td>gay</td>
+<td>{'error': 'name', 'correction': 'mattgay'}</td>
+</tr>
+<tr>
+<th>2</th>
+<td>8767</td>
+<td>Sam Hubbard</td>
+<td>DL</td>
+<td>1996-06-23</td>
+<td>samhubbard</td>
+<td>sam</td>
+<td>hubbard</td>
+<td>{'error': 'dob', 'correction': '1995-06-29'}</td>
+</tr>
+<tr>
+<th>3</th>
+<td>9293</td>
+<td>Foye Oluokun</td>
+<td>LB</td>
+<td>1995-08-02</td>
+<td>foyeoluokun</td>
+<td>foye</td>
+<td>oluokun</td>
+<td>{'error': 'name', 'correction': 'foyesadeoluokun'}</td>
+</tr>
+<tr>
+<th>4</th>
+<td>11580</td>
+<td>Dorian Williams</td>
+<td>LB</td>
+<td>2001-06-28</td>
+<td>dorianwilliams</td>
+<td>dorian</td>
+<td>williams</td>
+<td>{'error': 'dob', 'correction': '2001-06-08'}</td>
+</tr>
+<tr>
+<th>5</th>
+<td>11300</td>
+<td>Tank Bigsby</td>
+<td>RB</td>
+<td>2001-08-20</td>
+<td>tankbigsby</td>
+<td>tank</td>
+<td>bigsby</td>
+<td>{'error': 'dob', 'correction': '2001-08-30'}</td>
+</tr>
+<tr>
+<th>6</th>
+<td>11204</td>
+<td>Zamir White</td>
+<td>RB</td>
+<td>1999-07-18</td>
+<td>zamirwhite</td>
+<td>zamir</td>
+<td>white</td>
+<td>{'error': 'dob', 'correction': '1999-09-18'}</td>
+</tr>
+</tbody>
+</table></div><div><h1>Zou Keepers</h1><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>name</th>
+<th>pos</th>
+<th>date</th>
+<th>status</th>
+<th>comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Trevor Lawrence</td>
+<td>QB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Lawrence (knee) was limited at practice Wednesday.</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Jimmy Garoppolo</td>
+<td>QB</td>
+<td>Oct 24</td>
+<td>Questionable</td>
+<td>None</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Deebo Samuel</td>
+<td>WR</td>
+<td>Oct 24</td>
+<td>Out</td>
+<td>None</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Darren Waller</td>
+<td>TE</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Waller was a limited practice participant Wednesday due to a hamstring issue, Dan Salomone of the Giants' official site reports.</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Gerald Everett</td>
+<td>TE</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Everett (hip) didn't practice Wednesday.</td>
+</tr>
+<tr>
+<th>5</th>
+<td>Pat Freiermuth</td>
+<td>TE</td>
+<td>Oct 21</td>
+<td>Injured Reserve</td>
+<td>Freiermuth (hamstring) was placed on injured reserve Saturday.</td>
+</tr>
+<tr>
+<th>6</th>
+<td>Jordyn Brooks</td>
+<td>LB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Brooks (calf) was a limited participant in Seattle's practice Wednesday, Bob Condotta of The Seattle Times reports.</td>
+</tr>
+<tr>
+<th>7</th>
+<td>Xavier Woods</td>
+<td>S</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Woods (hamstring) was a limited participant at practice Wednesday, Darin Gantt of the Panthers' official site reports.</td>
+</tr>
+<tr>
+<th>8</th>
+<td>Nick Chubb</td>
+<td>RB</td>
+<td>Sep 30</td>
+<td>Injured Reserve</td>
+<td>Chubb (knee, IR) underwent surgery to repair his torn MCL and meniscus Friday, NFL Network's Ian Rapoport reports.</td>
+</tr>
+<tr>
+<th>9</th>
+<td>Matt Milano</td>
+<td>LB</td>
+<td>Oct 11</td>
+<td>Injured Reserve</td>
+<td>The Bills placed Milano (leg) on injured reserve Wednesday.</td>
+</tr>
+<tr>
+<th>10</th>
+<td>Derek Stingley Jr.</td>
+<td>CB</td>
+<td>Sep 23</td>
+<td>Injured Reserve</td>
+<td>The Texans placed Stingley (hamstring) on injured reserve Saturday, Tom Pelissero of NFL Network reports.</td>
+</tr>
+<tr>
+<th>11</th>
+<td>Greg Dulcich</td>
+<td>TE</td>
+<td>Oct 21</td>
+<td>Injured Reserve</td>
+<td>Dulcich (hamstring) was placed on injured reserve Saturday, Parker Gabriel of The Denver Post reports.</td>
+</tr>
+<tr>
+<th>12</th>
+<td>Aaron Rodgers</td>
+<td>QB</td>
+<td>Oct 16</td>
+<td>Injured Reserve</td>
+<td>Rodgers (Achilles) threw on the field for approximately five minutes prior to the Jets' 20-14 win over the Eagles on Sunday, Rich Cimini of ESPN.com reports.</td>
+</tr>
+<tr>
+<th>13</th>
+<td>Kayvon Thibodeaux</td>
+<td>LB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>None</td>
+</tr>
+<tr>
+<th>14</th>
+<td>Nick Herbig</td>
+<td>LB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>None</td>
+</tr>
+</tbody>
+</table><h2 align="center">Player Errors</h2><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>nffl_id</th>
+<th>Name</th>
+<th>POS</th>
+<th>dob</th>
+<th>merge_name</th>
+<th>merge_first_name</th>
+<th>merge_last_name</th>
+<th>issue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>10562</td>
+<td>Pat Freirmuth</td>
+<td>TE</td>
+<td>1998-10-25</td>
+<td>patfreirmuth</td>
+<td>pat</td>
+<td>freirmuth</td>
+<td>{'error': 'name', 'correction': 'patfreiermuth'}</td>
+</tr>
+</tbody>
+</table></div><div><h1>46Dominators</h1><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>name</th>
+<th>pos</th>
+<th>date</th>
+<th>status</th>
+<th>comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>Justin Fields</td>
+<td>QB</td>
+<td>Oct 25</td>
+<td>Doubtful</td>
+<td>Fields (thumb) didn't practice Wednesday.</td>
+</tr>
+<tr>
+<th>1</th>
+<td>Zack Moss</td>
+<td>RB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Moss didn't practice Wednesday due to elbow and heel injuries, James Boyd of The Athletic reports.</td>
+</tr>
+<tr>
+<th>2</th>
+<td>Kenneth Walker III</td>
+<td>RB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Walker didn't take part in Wednesday's practice due to a calf injury, Bob Condotta of The Seattle Times reports.</td>
+</tr>
+<tr>
+<th>3</th>
+<td>Curtis Samuel</td>
+<td>WR</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Samuel was a non-participant at Wednesday's practice due to a foot injury.</td>
+</tr>
+<tr>
+<th>4</th>
+<td>Hunter Henry</td>
+<td>TE</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Henry (ankle) was limited  at practice Wednesday.</td>
+</tr>
+<tr>
+<th>5</th>
+<td>Cody Barton</td>
+<td>LB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Barton (ankle) did not participate at practice Wednesday.</td>
+</tr>
+<tr>
+<th>6</th>
+<td>Divine Deablo</td>
+<td>LB</td>
+<td>Oct 22</td>
+<td>Questionable</td>
+<td>Deablo (ankle) has been downgraded to out for the remainder of Sunday's game against the Bears.</td>
+</tr>
+<tr>
+<th>7</th>
+<td>Frankie Luvu</td>
+<td>LB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Luvu (hip) was a limited participant at practice Wednesday, Darin Gantt of the Panthers' official site reports.</td>
+</tr>
+<tr>
+<th>8</th>
+<td>Andre Cisco</td>
+<td>S</td>
+<td>Oct 19</td>
+<td>Questionable</td>
+<td>Cisco (lower body) is questionable to return to Thursday's matchup with the Saints, Demetrius Harvey of The Florida Times-Union reports.</td>
+</tr>
+<tr>
+<th>9</th>
+<td>Roger McCreary</td>
+<td>CB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>None</td>
+</tr>
+<tr>
+<th>10</th>
+<td>Khalil Herbert</td>
+<td>RB</td>
+<td>Oct 13</td>
+<td>Injured Reserve</td>
+<td>The Bears placed Herbert (ankle) on injured reserve Friday, Field Yates of ESPN reports.</td>
+</tr>
+<tr>
+<th>11</th>
+<td>Zach Charbonnet</td>
+<td>RB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Charbonnet (hamstring) was a limited practice participant Wednesday, Bob Condotta of The Seattle Times reports.</td>
+</tr>
+</tbody>
+</table><h2 align="center">Player Errors</h2><table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>nffl_id</th>
+<th>Name</th>
+<th>POS</th>
+<th>dob</th>
+<th>merge_name</th>
+<th>merge_first_name</th>
+<th>merge_last_name</th>
+<th>issue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>8732</td>
+<td>Darius Leonard</td>
+<td>LB</td>
+<td>1995-07-27</td>
+<td>dariusleonard</td>
+<td>darius</td>
+<td>leonard</td>
+<td>{'error': 'name', 'correction': 'dariusclark'}</td>
+</tr>
+<tr>
+<th>1</th>
+<td>11005</td>
+<td>Daxton Hill</td>
+<td>DB</td>
+<td>2000-09-29</td>
+<td>daxtonhill</td>
+<td>daxton</td>
+<td>hill</td>
+<td>{'error': 'name', 'correction': 'daxhill'}</td>
+</tr>
+<tr>
+<th>2</th>
+<td>10528</td>
+<td>Patrick Surtain ii</td>
+<td>DB</td>
+<td>2000-04-14</td>
+<td>patricksurtain</td>
+<td>patrick</td>
+<td>surtain</td>
+<td>{'error': 'name', 'correction': 'patsurtain'}</td>
+</tr>
+<tr>
+<th>3</th>
+<td>11232</td>
+<td>Ahmad Gardner</td>
+<td>DB</td>
+<td>2000-08-31</td>
+<td>ahmadgardner</td>
+<td>ahmad</td>
+<td>gardner</td>
+<td>{'error': 'name', 'correction': 'dongardner'}</td>
+</tr>
+</tbody>
+</table></div><div><h1>Danimals</h1><table border="1" class="dataframe">
 <thead>
 <tr style="text-align: right;">
 <th></th>
@@ -47,7 +834,7 @@
 <td>DT</td>
 <td>Oct 25</td>
 <td>Questionable</td>
-<td>Coach Todd Bowles said Wednesday that Vea (groin) would be a game-time decision for Thursday's game at Buffalo, Scott Smith of the Buccaneers' official site reports.</td>
+<td>Vea (groin) is officially listed as questionable for the Buccaneers' game against the Bills on Thursday, Greg Auman of Fox Sports reports.</td>
 </tr>
 <tr>
 <th>4</th>
@@ -55,10 +842,18 @@
 <td>LB</td>
 <td>Oct 25</td>
 <td>Questionable</td>
-<td>None</td>
+<td>Smith (shoulder) did not participate at practice Wednesday, Brian Wacker of The Baltimore Sun reports.</td>
 </tr>
 <tr>
 <th>5</th>
+<td>Bobby Wagner</td>
+<td>LB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Wagner (ankle) missed Seattle's practice Wednesday, Bob Condotta of The Seattle Times reports.</td>
+</tr>
+<tr>
+<th>6</th>
 <td>Nick Bolton</td>
 <td>LB</td>
 <td>Oct 23</td>
@@ -66,15 +861,15 @@
 <td>Bolton will require surgery after suffering a dislocated wrist in Sunday's 31-17 win over the Chargers and is expected to miss roughly two months, Tom Pelissero of NFL Network reports.</td>
 </tr>
 <tr>
-<th>6</th>
+<th>7</th>
 <td>Tyrann Mathieu</td>
 <td>S</td>
 <td>Oct 25</td>
 <td>Questionable</td>
-<td>None</td>
+<td>Mathieu (foot) was a limited participant at practice Wednesday.</td>
 </tr>
 <tr>
-<th>7</th>
+<th>8</th>
 <td>Jeremy Chinn</td>
 <td>S</td>
 <td>Oct 24</td>
@@ -82,7 +877,7 @@
 <td>The Panthers placed Chinn (quadriceps) on injured reserve Tuesday.</td>
 </tr>
 <tr>
-<th>8</th>
+<th>9</th>
 <td>Shaq Thompson</td>
 <td>LB</td>
 <td>Sep 19</td>
@@ -90,12 +885,20 @@
 <td>Thompson (lower leg) was placed on injured reserve Tuesday, Darin Gantt of the Panthers' official site reports.</td>
 </tr>
 <tr>
-<th>9</th>
+<th>10</th>
 <td>Jelani Woods</td>
 <td>TE</td>
 <td>Oct 25</td>
 <td>Injured Reserve</td>
 <td>Colts head coach Shane Steichen said Wednesday that Woods (hamstring) is "getting closer" to a return to practice, James Boyd of The Athletic reports.</td>
+</tr>
+<tr>
+<th>11</th>
+<td>Byron Young</td>
+<td>LB</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>None</td>
 </tr>
 </tbody>
 </table><h2 align="center">Player Errors</h2><table border="1" class="dataframe">
@@ -213,6 +1016,14 @@
 </tr>
 <tr>
 <th>1</th>
+<td>Tyler Lockett</td>
+<td>WR</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Lockett (hamstring) was held out of Wednesday's practice, Bob Condotta of The Seattle Times reports.</td>
+</tr>
+<tr>
+<th>2</th>
 <td>Ed Oliver</td>
 <td>DT</td>
 <td>Oct 25</td>
@@ -220,7 +1031,7 @@
 <td>Oliver (toe) is listed as questionable for Thursday's game versus Tampa Bay, Katherine Fitzgerald of The Buffalo News reports.</td>
 </tr>
 <tr>
-<th>2</th>
+<th>3</th>
 <td>Jerry Jacobs</td>
 <td>CB</td>
 <td>Oct 24</td>
@@ -228,7 +1039,7 @@
 <td>None</td>
 </tr>
 <tr>
-<th>3</th>
+<th>4</th>
 <td>Tyson Campbell</td>
 <td>CB</td>
 <td>Oct 24</td>
@@ -236,7 +1047,7 @@
 <td>None</td>
 </tr>
 <tr>
-<th>4</th>
+<th>5</th>
 <td>Josh Uche</td>
 <td>LB</td>
 <td>Oct 24</td>
@@ -244,7 +1055,7 @@
 <td>None</td>
 </tr>
 <tr>
-<th>5</th>
+<th>6</th>
 <td>Eddie Jackson</td>
 <td>S</td>
 <td>Oct 25</td>
@@ -252,7 +1063,7 @@
 <td>jackson (foot) was a limited participant at Wednesday's practice.</td>
 </tr>
 <tr>
-<th>6</th>
+<th>7</th>
 <td>Christian Gonzalez</td>
 <td>CB</td>
 <td>Oct 7</td>
@@ -260,7 +1071,7 @@
 <td>Gonzalez (shoulder) was placed on injured reserve Saturday, Mike Reiss of ESPN.com reports.</td>
 </tr>
 <tr>
-<th>7</th>
+<th>8</th>
 <td>Cameron Heyward</td>
 <td>DT</td>
 <td>Sep 14</td>
@@ -268,15 +1079,15 @@
 <td>The Steelers placed Heyward (groin) on injured reserve Thursday.</td>
 </tr>
 <tr>
-<th>8</th>
+<th>9</th>
 <td>Jerome Ford</td>
 <td>RB</td>
 <td>Oct 25</td>
 <td>Doubtful</td>
-<td>Ford (ankle) is responding well to treatment and may only miss a week or two of game action, Jeremy Fowler of ESPN.com reports.</td>
+<td>Ford (ankle) is responding well to treatment and may miss only a week or two of game action, Jeremy Fowler of ESPN.com reports.</td>
 </tr>
 <tr>
-<th>9</th>
+<th>10</th>
 <td>Kader Kohou</td>
 <td>CB</td>
 <td>Oct 25</td>
@@ -284,7 +1095,7 @@
 <td>None</td>
 </tr>
 <tr>
-<th>10</th>
+<th>11</th>
 <td>De'Von Achane</td>
 <td>RB</td>
 <td>Oct 15</td>
@@ -292,7 +1103,7 @@
 <td>Achane (knee) is expected to miss the minimum four games while on injured reserve and will likely be activated ahead of the Dolphins' Week 11 game against the Raiders on Nov. 19, Adam Schefter of ESPN reports.</td>
 </tr>
 <tr>
-<th>11</th>
+<th>12</th>
 <td>Brian Asamoah II</td>
 <td>LB</td>
 <td>Oct 25</td>
@@ -300,7 +1111,7 @@
 <td>None</td>
 </tr>
 <tr>
-<th>12</th>
+<th>13</th>
 <td>Cameron Latu</td>
 <td>TE</td>
 <td>Aug 29</td>
@@ -308,7 +1119,7 @@
 <td>The 49ers placed Latu (knee) on injured reserve Tuesday, Adam Schefter of ESPN reports.</td>
 </tr>
 <tr>
-<th>13</th>
+<th>14</th>
 <td>DeMarvion Overshown</td>
 <td>LB</td>
 <td>Aug 30</td>
@@ -475,391 +1286,6 @@
 <td>{'error': 'dob', 'correction': '1998-11-29'}</td>
 </tr>
 </tbody>
-</table></div><div><h1>Waboritas</h1><table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>name</th>
-<th>pos</th>
-<th>date</th>
-<th>status</th>
-<th>comment</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>Ryan Tannehill</td>
-<td>QB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Tannehill (ankle) won't practice Wednesday, Jim Wyatt of the Titans' official site reports.</td>
-</tr>
-<tr>
-<th>1</th>
-<td>Chris Godwin</td>
-<td>WR</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Godwin (neck) is listed as questionable for Thursday's game at Buffalo, Greg Auman of Fox Sports reports.</td>
-</tr>
-<tr>
-<th>2</th>
-<td>Graham Gano</td>
-<td>PK</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-<tr>
-<th>3</th>
-<td>Jalen Thompson</td>
-<td>S</td>
-<td>Oct 24</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-<tr>
-<th>4</th>
-<td>Juwan Johnson</td>
-<td>TE</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Johnson (calf) was a limited practice participant Wednesday, John Hendrix of SI.com reports.</td>
-</tr>
-<tr>
-<th>5</th>
-<td>James Conner</td>
-<td>RB</td>
-<td>Oct 10</td>
-<td>Injured Reserve</td>
-<td>The Cardinals placed Conner (knee) on injured reserve Tuesday, Tom Pelissero of NFL Network reports.</td>
-</tr>
-<tr>
-<th>6</th>
-<td>J.K. Dobbins</td>
-<td>RB</td>
-<td>Sep 12</td>
-<td>Injured Reserve</td>
-<td>The Ravens officially placed Dobbins (Achilles) on injured reserve Tuesday, Clifton Brown of the team's official site reports.</td>
-</tr>
-<tr>
-<th>7</th>
-<td>Mike Williams</td>
-<td>WR</td>
-<td>Sep 26</td>
-<td>Injured Reserve</td>
-<td>The Chargers placed Williams (knee) on injured reserve Tuesday.</td>
-</tr>
-<tr>
-<th>8</th>
-<td>Keaton Mitchell</td>
-<td>RB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Mitchell (hamstring) didn't practice Wednesday, Jamison Hensley of ESPN.com reports.</td>
-</tr>
-<tr>
-<th>9</th>
-<td>Cole Turner</td>
-<td>TE</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-<tr>
-<th>10</th>
-<td>Roschon Johnson</td>
-<td>RB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Johnson (concussion) was a full practice participant Wednesday.</td>
-</tr>
-</tbody>
-</table><h2 align="center">Player Errors</h2><table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>nffl_id</th>
-<th>Name</th>
-<th>POS</th>
-<th>dob</th>
-<th>merge_name</th>
-<th>merge_first_name</th>
-<th>merge_last_name</th>
-<th>issue</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>8730</td>
-<td>Lamar Jackson</td>
-<td>QB</td>
-<td>1997-01-17</td>
-<td>lamarjackson</td>
-<td>lamar</td>
-<td>jackson</td>
-<td>{'error': 'dob', 'correction': '1997-01-07'}</td>
-</tr>
-<tr>
-<th>1</th>
-<td>5277</td>
-<td>Geno Smith</td>
-<td>QB</td>
-<td>1990-10-12</td>
-<td>genosmith</td>
-<td>geno</td>
-<td>smith</td>
-<td>{'error': 'dob', 'correction': '1990-10-10'}</td>
-</tr>
-<tr>
-<th>2</th>
-<td>7206</td>
-<td>Michael Thomas</td>
-<td>WR</td>
-<td>1994-08-16</td>
-<td>michaelthomas</td>
-<td>michael</td>
-<td>thomas</td>
-<td>{'error': 'dob', 'correction': '1993-03-03'}</td>
-</tr>
-<tr>
-<th>3</th>
-<td>9466</td>
-<td>Terry McLaurin</td>
-<td>WR</td>
-<td>1996-04-15</td>
-<td>terrymclaurin</td>
-<td>terry</td>
-<td>mclaurin</td>
-<td>{'error': 'dob', 'correction': '1995-09-15'}</td>
-</tr>
-<tr>
-<th>4</th>
-<td>8743</td>
-<td>Dallas Goedert</td>
-<td>TE</td>
-<td>1995-07-03</td>
-<td>dallasgoedert</td>
-<td>dallas</td>
-<td>goedert</td>
-<td>{'error': 'dob', 'correction': '1995-01-03'}</td>
-</tr>
-<tr>
-<th>5</th>
-<td>10601</td>
-<td>Ernest Jones</td>
-<td>LB</td>
-<td>1999-11-21</td>
-<td>ernestjones</td>
-<td>ernest</td>
-<td>jones</td>
-<td>{'error': 'dob', 'correction': '1999-11-22'}</td>
-</tr>
-<tr>
-<th>6</th>
-<td>9607</td>
-<td>Kaden Elliss</td>
-<td>LB</td>
-<td>1995-06-10</td>
-<td>kadenelliss</td>
-<td>kaden</td>
-<td>elliss</td>
-<td>{'error': 'dob', 'correction': '1995-07-10'}</td>
-</tr>
-<tr>
-<th>7</th>
-<td>9978</td>
-<td>Kamren Curl</td>
-<td>DB</td>
-<td>1900-01-01</td>
-<td>kamrencurl</td>
-<td>kamren</td>
-<td>curl</td>
-<td>{'error': 'dob', 'correction': '1999-03-03'}</td>
-</tr>
-<tr>
-<th>8</th>
-<td>11164</td>
-<td>Alontae Taylor</td>
-<td>DB</td>
-<td>1900-01-01</td>
-<td>alontaetaylor</td>
-<td>alontae</td>
-<td>taylor</td>
-<td>{'error': 'dob', 'correction': '1998-12-03'}</td>
-</tr>
-</tbody>
-</table></div><div><h1>46Dominators</h1><table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>name</th>
-<th>pos</th>
-<th>date</th>
-<th>status</th>
-<th>comment</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>Justin Fields</td>
-<td>QB</td>
-<td>Oct 25</td>
-<td>Doubtful</td>
-<td>Fields (thumb) didn't practice Wednesday.</td>
-</tr>
-<tr>
-<th>1</th>
-<td>Zack Moss</td>
-<td>RB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Moss (elbow/heel) didn't practice Wednesday, James Boyd of The Athletic reports.</td>
-</tr>
-<tr>
-<th>2</th>
-<td>Curtis Samuel</td>
-<td>WR</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Samuel was a non-participant at Wednesday's practice due to a foot injury.</td>
-</tr>
-<tr>
-<th>3</th>
-<td>DK Metcalf</td>
-<td>WR</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Coach Pete Carroll said Metcalf (ribs/hip) will practice in a limited capacity Wednesday, Michael-Shawn Dugar of The Athletic reports.</td>
-</tr>
-<tr>
-<th>4</th>
-<td>Hunter Henry</td>
-<td>TE</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Henry (ankle) was limited  at practice Wednesday.</td>
-</tr>
-<tr>
-<th>5</th>
-<td>Cody Barton</td>
-<td>LB</td>
-<td>Oct 23</td>
-<td>Questionable</td>
-<td>Coach Ron Rivera said Monday that Barton is believed to have sustained a high ankle sprain during Sunday's game at the Giants, Nicki Jhabvala of The Washington Post reports.</td>
-</tr>
-<tr>
-<th>6</th>
-<td>Divine Deablo</td>
-<td>LB</td>
-<td>Oct 22</td>
-<td>Questionable</td>
-<td>Deablo (ankle) has been downgraded to out for the remainder of Sunday's game against the Bears.</td>
-</tr>
-<tr>
-<th>7</th>
-<td>Frankie Luvu</td>
-<td>LB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Luvu (hip) was a limited participant at practice Wednesday, Darin Gantt of the Panthers' official site reports.</td>
-</tr>
-<tr>
-<th>8</th>
-<td>Andre Cisco</td>
-<td>S</td>
-<td>Oct 19</td>
-<td>Questionable</td>
-<td>Cisco (lower body) is questionable to return to Thursday's matchup with the Saints, Demetrius Harvey of The Florida Times-Union reports.</td>
-</tr>
-<tr>
-<th>9</th>
-<td>Roger McCreary</td>
-<td>CB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-<tr>
-<th>10</th>
-<td>Khalil Herbert</td>
-<td>RB</td>
-<td>Oct 13</td>
-<td>Injured Reserve</td>
-<td>The Bears placed Herbert (ankle) on injured reserve Friday, Field Yates of ESPN reports.</td>
-</tr>
-<tr>
-<th>11</th>
-<td>Zach Charbonnet</td>
-<td>RB</td>
-<td>Oct 24</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-</tbody>
-</table><h2 align="center">Player Errors</h2><table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>nffl_id</th>
-<th>Name</th>
-<th>POS</th>
-<th>dob</th>
-<th>merge_name</th>
-<th>merge_first_name</th>
-<th>merge_last_name</th>
-<th>issue</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>8732</td>
-<td>Darius Leonard</td>
-<td>LB</td>
-<td>1995-07-27</td>
-<td>dariusleonard</td>
-<td>darius</td>
-<td>leonard</td>
-<td>{'error': 'name', 'correction': 'dariusclark'}</td>
-</tr>
-<tr>
-<th>1</th>
-<td>11005</td>
-<td>Daxton Hill</td>
-<td>DB</td>
-<td>2000-09-29</td>
-<td>daxtonhill</td>
-<td>daxton</td>
-<td>hill</td>
-<td>{'error': 'name', 'correction': 'daxhill'}</td>
-</tr>
-<tr>
-<th>2</th>
-<td>10528</td>
-<td>Patrick Surtain ii</td>
-<td>DB</td>
-<td>2000-04-14</td>
-<td>patricksurtain</td>
-<td>patrick</td>
-<td>surtain</td>
-<td>{'error': 'name', 'correction': 'patsurtain'}</td>
-</tr>
-<tr>
-<th>3</th>
-<td>11232</td>
-<td>Ahmad Gardner</td>
-<td>DB</td>
-<td>2000-08-31</td>
-<td>ahmadgardner</td>
-<td>ahmad</td>
-<td>gardner</td>
-<td>{'error': 'name', 'correction': 'dongardner'}</td>
-</tr>
-</tbody>
 </table></div><div><h1>Mayhem</h1><table border="1" class="dataframe">
 <thead>
 <tr style="text-align: right;">
@@ -910,7 +1336,7 @@
 <td>WR</td>
 <td>Oct 25</td>
 <td>Questionable</td>
-<td>Palmer Jeff Miller of the Los Angeles Times due to a knee injury.</td>
+<td>Palmer missed practice Wednesday due to a knee injury, Jeff Miller of the Los Angeles Times reports.</td>
 </tr>
 <tr>
 <th>5</th>
@@ -926,7 +1352,7 @@
 <td>TE</td>
 <td>Oct 25</td>
 <td>Questionable</td>
-<td>Musgrave (ankle) isn't practicing Wednesday, Rob Demovsky of ESPN.com reports.</td>
+<td>Musgrave (ankle) won't practice Wednesday, Rob Demovsky of ESPN.com reports.</td>
 </tr>
 <tr>
 <th>7</th>
@@ -946,14 +1372,22 @@
 </tr>
 <tr>
 <th>9</th>
+<td>Noah Fant</td>
+<td>TE</td>
+<td>Oct 25</td>
+<td>Questionable</td>
+<td>Fant was limited at Wednesday's practice due to a toe injury, Bob Condotta of The Seattle Times reports.</td>
+</tr>
+<tr>
+<th>10</th>
 <td>Jevon Holland</td>
 <td>S</td>
 <td>Oct 25</td>
 <td>Questionable</td>
-<td>None</td>
+<td>Holland (concussion) did not participate at practice Wednesday, Daniel Oyefusi of the Miami Herald reports.</td>
 </tr>
 <tr>
-<th>10</th>
+<th>11</th>
 <td>Jaquan Brisker</td>
 <td>S</td>
 <td>Oct 25</td>
@@ -961,15 +1395,15 @@
 <td>Brisker missed Wednesday's practice due to an illness.</td>
 </tr>
 <tr>
-<th>11</th>
+<th>12</th>
 <td>Justin Simmons</td>
 <td>S</td>
 <td>Oct 25</td>
 <td>Questionable</td>
-<td>None</td>
+<td>Simmons (hip) was a limited participant at practice Wednesday, Troy Renck of Denver 7 News reports.</td>
 </tr>
 <tr>
-<th>12</th>
+<th>13</th>
 <td>Kyren Williams</td>
 <td>RB</td>
 <td>Oct 21</td>
@@ -977,7 +1411,7 @@
 <td>Williams (ankle) was placed on injured reserve Saturday, Adam Schefter of ESPN reports.</td>
 </tr>
 <tr>
-<th>13</th>
+<th>14</th>
 <td>Justin Jefferson</td>
 <td>WR</td>
 <td>Oct 14</td>
@@ -985,15 +1419,15 @@
 <td>Jefferson is expected to miss four-to-six weeks with a hamstring injury, Adam Schefter of ESPN reports.</td>
 </tr>
 <tr>
-<th>14</th>
+<th>15</th>
 <td>C.J. Gardner-Johnson</td>
 <td>S</td>
-<td>Oct 25</td>
+<td>Oct 26</td>
 <td>Injured Reserve</td>
 <td>None</td>
 </tr>
 <tr>
-<th>15</th>
+<th>16</th>
 <td>Kyler Murray</td>
 <td>QB</td>
 <td>Oct 25</td>
@@ -1092,392 +1526,6 @@
 <td>tyquan</td>
 <td>thornton</td>
 <td>{'error': 'dob', 'correction': '2000-09-07'}</td>
-</tr>
-</tbody>
-</table></div><div><h1>Zou Keepers</h1><table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>name</th>
-<th>pos</th>
-<th>date</th>
-<th>status</th>
-<th>comment</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>Trevor Lawrence</td>
-<td>QB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Lawrence (knee) was limited at practice Wednesday.</td>
-</tr>
-<tr>
-<th>1</th>
-<td>Jimmy Garoppolo</td>
-<td>QB</td>
-<td>Oct 24</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-<tr>
-<th>2</th>
-<td>Deebo Samuel</td>
-<td>WR</td>
-<td>Oct 24</td>
-<td>Out</td>
-<td>None</td>
-</tr>
-<tr>
-<th>3</th>
-<td>Darren Waller</td>
-<td>TE</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Waller was a limited practice participant Wednesday due to a hamstring issue, Dan Salomone of the Giants' official site reports.</td>
-</tr>
-<tr>
-<th>4</th>
-<td>Gerald Everett</td>
-<td>TE</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Everett (hip) didn't practice Wednesday.</td>
-</tr>
-<tr>
-<th>5</th>
-<td>Pat Freiermuth</td>
-<td>TE</td>
-<td>Oct 21</td>
-<td>Injured Reserve</td>
-<td>Freiermuth (hamstring) was placed on injured reserve Saturday.</td>
-</tr>
-<tr>
-<th>6</th>
-<td>Xavier Woods</td>
-<td>S</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Woods (hamstring) was a limited participant at practice Wednesday, Darin Gantt of the Panthers' official site reports.</td>
-</tr>
-<tr>
-<th>7</th>
-<td>Nick Chubb</td>
-<td>RB</td>
-<td>Sep 30</td>
-<td>Injured Reserve</td>
-<td>Chubb (knee, IR) underwent surgery to repair his torn MCL and meniscus Friday, NFL Network's Ian Rapoport reports.</td>
-</tr>
-<tr>
-<th>8</th>
-<td>Matt Milano</td>
-<td>LB</td>
-<td>Oct 11</td>
-<td>Injured Reserve</td>
-<td>The Bills placed Milano (leg) on injured reserve Wednesday.</td>
-</tr>
-<tr>
-<th>9</th>
-<td>Derek Stingley Jr.</td>
-<td>CB</td>
-<td>Sep 23</td>
-<td>Injured Reserve</td>
-<td>The Texans placed Stingley (hamstring) on injured reserve Saturday, Tom Pelissero of NFL Network reports.</td>
-</tr>
-<tr>
-<th>10</th>
-<td>Greg Dulcich</td>
-<td>TE</td>
-<td>Oct 21</td>
-<td>Injured Reserve</td>
-<td>Dulcich (hamstring) was placed on injured reserve Saturday, Parker Gabriel of The Denver Post reports.</td>
-</tr>
-<tr>
-<th>11</th>
-<td>Aaron Rodgers</td>
-<td>QB</td>
-<td>Oct 16</td>
-<td>Injured Reserve</td>
-<td>Rodgers (Achilles) threw on the field for approximately five minutes prior to the Jets' 20-14 win over the Eagles on Sunday, Rich Cimini of ESPN.com reports.</td>
-</tr>
-<tr>
-<th>12</th>
-<td>Kayvon Thibodeaux</td>
-<td>LB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-<tr>
-<th>13</th>
-<td>Nick Herbig</td>
-<td>LB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-</tbody>
-</table><h2 align="center">Player Errors</h2><table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>nffl_id</th>
-<th>Name</th>
-<th>POS</th>
-<th>dob</th>
-<th>merge_name</th>
-<th>merge_first_name</th>
-<th>merge_last_name</th>
-<th>issue</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>10562</td>
-<td>Pat Freirmuth</td>
-<td>TE</td>
-<td>1998-10-25</td>
-<td>patfreirmuth</td>
-<td>pat</td>
-<td>freirmuth</td>
-<td>{'error': 'name', 'correction': 'patfreiermuth'}</td>
-</tr>
-</tbody>
-</table></div><div><h1>Augies Army</h1><table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>name</th>
-<th>pos</th>
-<th>date</th>
-<th>status</th>
-<th>comment</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>Brock Purdy</td>
-<td>QB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Coach Kyle Shanahan said Purdy entered the concussion protocol after Monday's 22-17 loss at Minnesota, Cam Inman of The San Jose Mercury News reports.</td>
-</tr>
-<tr>
-<th>1</th>
-<td>Deshaun Watson</td>
-<td>QB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Watson, who won't start Sunday's contest against the Seahawks, is slated focus on rehabbing his shoulder injury throughout the week and then rest on game day, Kelsey Russo of the Browns' official site reports.</td>
-</tr>
-<tr>
-<th>2</th>
-<td>Raheem Mostert</td>
-<td>RB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Mostert missed Wednesday's practice with an ankle injury, Hal Habib of The Palm Beach Post reports.</td>
-</tr>
-<tr>
-<th>3</th>
-<td>David Montgomery</td>
-<td>RB</td>
-<td>Oct 24</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-<tr>
-<th>4</th>
-<td>Kareem Hunt</td>
-<td>RB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Hunt (thigh) isn't in line to practice Wednesday, Jake Trotter of ESPN.com reports.</td>
-</tr>
-<tr>
-<th>5</th>
-<td>Aaron Jones</td>
-<td>RB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Coach Matt LaFleur said Jones (hamstring) didn't participate in Wednesday's practice, Ryan Wood of USA Today reports. "He's just a little bit sore, and that's to be expected," LaFleur added. "Hopefully, we can ramp him up and get more snaps out there."</td>
-</tr>
-<tr>
-<th>6</th>
-<td>Tyreek Hill</td>
-<td>WR</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Hill was held out of Wednesday's practice with a hip injury, Hal Habib of The Palm Beach Post reports.</td>
-</tr>
-<tr>
-<th>7</th>
-<td>T.J. Hockenson</td>
-<td>TE</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-<tr>
-<th>8</th>
-<td>Devonte Wyatt</td>
-<td>DT</td>
-<td>Oct 22</td>
-<td>Questionable</td>
-<td>Wyatt (knee) has been ruled out for the remainder of Sunday's matchup with Denver.</td>
-</tr>
-<tr>
-<th>9</th>
-<td>Demario Davis</td>
-<td>LB</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>None</td>
-</tr>
-<tr>
-<th>10</th>
-<td>Vonn Bell</td>
-<td>S</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Bell (quadriceps) did not participate at practice Wednesday, Darin Gantt of the Panthers' official site reports.</td>
-</tr>
-<tr>
-<th>11</th>
-<td>Anthony Richardson</td>
-<td>QB</td>
-<td>Oct 24</td>
-<td>Injured Reserve</td>
-<td>Richardson underwent successful surgery Tuesday to address a Grade 3 AC joint sprain in his right shoulder, Colts owner Jim Irsay announced via his personal Twitter account.</td>
-</tr>
-<tr>
-<th>12</th>
-<td>David Ojabo</td>
-<td>LB</td>
-<td>Oct 2</td>
-<td>Injured Reserve</td>
-<td>Ravens head coach John Harbaugh said Ojabo (ankle/knee) may not return from injured reserve this season, Brian Wacker of The Baltimore Sun reports.</td>
-</tr>
-<tr>
-<th>13</th>
-<td>JT Woods</td>
-<td>S</td>
-<td>Oct 1</td>
-<td>Out</td>
-<td>Woods (illness) is said to be dealing with a medical condition, Daniel Popper of The Athletic reports.</td>
-</tr>
-<tr>
-<th>14</th>
-<td>Josh Whyle</td>
-<td>TE</td>
-<td>Oct 25</td>
-<td>Questionable</td>
-<td>Whyle (concussion) was a non-participant at Wednesday's practice,  Jim Wyatt of the Titans' official site reports.</td>
-</tr>
-<tr>
-<th>15</th>
-<td>Hendon Hooker</td>
-<td>QB</td>
-<td>Aug 30</td>
-<td>Out</td>
-<td>The Lions placed Hooker (knee) on the reserve/non-football injury list Tuesday.</td>
-</tr>
-</tbody>
-</table><h2 align="center">Player Errors</h2><table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>nffl_id</th>
-<th>Name</th>
-<th>POS</th>
-<th>dob</th>
-<th>merge_name</th>
-<th>merge_first_name</th>
-<th>merge_last_name</th>
-<th>issue</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>10792</td>
-<td>Eli Mitchell</td>
-<td>RB</td>
-<td>1998-05-02</td>
-<td>elimitchell</td>
-<td>eli</td>
-<td>mitchell</td>
-<td>{'error': 'name', 'correction': 'elijahmitchell'}</td>
-</tr>
-<tr>
-<th>1</th>
-<td>9521</td>
-<td>Matt Gay</td>
-<td>PK</td>
-<td>1994-01-01</td>
-<td>mattgay</td>
-<td>matt</td>
-<td>gay</td>
-<td>{'error': 'name', 'correction': 'mattgay'}</td>
-</tr>
-<tr>
-<th>2</th>
-<td>8767</td>
-<td>Sam Hubbard</td>
-<td>DL</td>
-<td>1996-06-23</td>
-<td>samhubbard</td>
-<td>sam</td>
-<td>hubbard</td>
-<td>{'error': 'dob', 'correction': '1995-06-29'}</td>
-</tr>
-<tr>
-<th>3</th>
-<td>9293</td>
-<td>Foye Oluokun</td>
-<td>LB</td>
-<td>1995-08-02</td>
-<td>foyeoluokun</td>
-<td>foye</td>
-<td>oluokun</td>
-<td>{'error': 'name', 'correction': 'foyesadeoluokun'}</td>
-</tr>
-<tr>
-<th>4</th>
-<td>11580</td>
-<td>Dorian Williams</td>
-<td>LB</td>
-<td>2001-06-28</td>
-<td>dorianwilliams</td>
-<td>dorian</td>
-<td>williams</td>
-<td>{'error': 'dob', 'correction': '2001-06-08'}</td>
-</tr>
-<tr>
-<th>5</th>
-<td>11300</td>
-<td>Tank Bigsby</td>
-<td>RB</td>
-<td>2001-08-20</td>
-<td>tankbigsby</td>
-<td>tank</td>
-<td>bigsby</td>
-<td>{'error': 'dob', 'correction': '2001-08-30'}</td>
-</tr>
-<tr>
-<th>6</th>
-<td>11204</td>
-<td>Zamir White</td>
-<td>RB</td>
-<td>1999-07-18</td>
-<td>zamirwhite</td>
-<td>zamir</td>
-<td>white</td>
-<td>{'error': 'dob', 'correction': '1999-09-18'}</td>
 </tr>
 </tbody>
 </table></div></body></html>
